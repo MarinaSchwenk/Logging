@@ -1,0 +1,10 @@
+             STRPGMEXP  PGMLVL(*CURRENT) SIGNATURE('SQLUTILS V1.00')
+                export     symbol( hasNext )
+                export     symbol( getMaxRowCount )
+                export     symbol( getSQLStateMessage )
+                export     symbol( isSQLError )
+                export     symbol( isSQLRowNotFound )
+                export     symbol( isSQLSuccess )
+                export     symbol( isSQLWarning )
+                export     symbol( isSQLNull )
+             ENDPGMEXP
