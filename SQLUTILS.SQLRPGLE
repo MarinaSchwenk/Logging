@@ -1,5 +1,5 @@
 **free
-ctl-opt nomain bnddir( 'TEXTUTILS' : 'EVBLOG' );
+ctl-opt nomain bnddir( 'TEXTUTILS' : 'LOG/LOG' );
 //--------------------------------------------------------------------------------------
 // SQLUTILS
 // SQL utility service program that has a series of procedures commonly used in embedded sql.
@@ -10,7 +10,7 @@ ctl-opt nomain bnddir( 'TEXTUTILS' : 'EVBLOG' );
 
  /copy sqlutils_h
  /copy textutil_h
- /copy evblog_h
+ /copy log/log_h
 
 
 //-----------------------------------------------------------------
